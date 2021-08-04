@@ -12,6 +12,12 @@ export default defineConfig({
       formats: ['umd'],
     },
     outDir: path.resolve(__dirname, '..', 'public'),
+    cssCodeSplit: false,
+    rollupOptions: {
+      output: {
+        assetFileNames: 'widget[extname]',
+      },
+    },
   },
   plugins: [svelte()],
 })

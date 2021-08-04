@@ -3,7 +3,7 @@
   import { getDonationButtons, resolveOptions } from './options'
   import DonationButton from './components/DonationButton.svelte'
   import Link from './components/Link.svelte'
-  import './style.css'
+  import './widget.css'
 
   export let options = {}
 
