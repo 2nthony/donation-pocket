@@ -1,5 +1,6 @@
 <script>
   import './assets/index.css'
+  import GumroadLink from './components/GumroadLink.svelte'
 </script>
 
 <main class="mx-auto max-w-2xl">
@@ -13,14 +14,13 @@
     Donation Pocket is a widget to collect your all donation links in one place
     on webpage, including Buy Me a Coffee, ko-fi, patreon, paypal or more.
   </h4>
+
+  <div class="mt-20">
+    <GumroadLink pid="qRbAg">Try Now</GumroadLink>
+  </div>
 </main>
 
 <style>
-  :root {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-
   main {
     text-align: center;
     padding: 1em;
@@ -32,12 +32,5 @@
     font-size: 4rem;
     line-height: 1.1;
     margin: 2rem auto;
-    max-width: 14rem;
-  }
-
-  @media (min-width: 480px) {
-    h1 {
-      max-width: none;
-    }
   }
 </style>
