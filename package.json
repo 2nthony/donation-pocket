@@ -1,0 +1,19 @@
+{
+  "name": "donation-pocket",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:widget && npm run build:app",
+    "build:app": "vite build",
+    "build:widget": "vite build --config builds/vite.widget.config.js",
+    "build:widget-w": "vite build --config builds/vite.widget.config.js --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "svelte": "^3.37.0",
+    "tailwindcss": "^2.2.7",
+    "vite": "^2.4.4"
+  }
+}
