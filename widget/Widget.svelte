@@ -63,13 +63,15 @@
         /></svg
       >
     </div>
-  </div>
 
-  <Link
-    href="https://donation-pocket.aotunote.com"
-    class="donation-brand no-underline text-gray-700"
-    style="font-size: 10px;">Donation Pocket</Link
-  >
+    <div class="flex justify-end w-full mt-1">
+      <Link
+        href="https://donation-pocket.aotunote.com"
+        class="donation-brand no-underline text-gray-700"
+        style="font-size: 10px;">Donation Pocket</Link
+      >
+    </div>
+  </div>
 </div>
 
 <style>
