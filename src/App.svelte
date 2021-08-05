@@ -47,7 +47,7 @@
         '<b>Unlimited</b> Websites',
         'Free updates <b>forever</b>',
         'Custom Avatar',
-        'Custom link',
+        'Custom Url',
         'Custom branding(remove or add yours)',
         'Tracking(gtag)',
         'Pro features in future',
