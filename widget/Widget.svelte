@@ -52,7 +52,7 @@
         xmlns:xlink="http://www.w3.org/1999/xlink"
         aria-hidden="true"
         role="img"
-        class="iconify iconify--fa-solid text-white transform scale-75"
+        class="iconify iconify--fa-solid trigger-icon text-white"
         width="32"
         height="32"
         preserveAspectRatio="xMidYMid meet"
@@ -71,3 +71,9 @@
     style="font-size: 10px;">Donation Pocket</Link
   >
 </div>
+
+<style>
+  .trigger-icon {
+    @apply transform scale-75;
+  }
+</style>
