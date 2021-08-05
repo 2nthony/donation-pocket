@@ -1,5 +1,7 @@
 <script>
   import './assets/index.css'
+  import { resolveOssParams } from './helpers/oss/ali'
+  import PricingCard from './components/PricingCard.svelte'
   import GumroadLink from './components/GumroadLink.svelte'
 </script>
 
@@ -15,14 +17,51 @@
     on webpage, including Buy Me a Coffee, ko-fi, patreon, paypal or more.
   </h4>
 
-  <div class="mt-20">
-    <GumroadLink pid="qRbAg">Try Now</GumroadLink>
+  <img
+    class="transform -rotate-45 skew-x-12 mx-auto"
+    src={resolveOssParams(
+      `https://evilaassets.oss-cn-shanghai.aliyuncs.com/uPic/2021/08/EBUFvJ.png`,
+      ['style/jpg'],
+    )}
+    alt="cover"
+  />
+
+  <h2 class="text-5xl mb-10 text-center font-bold">Pricing</h2>
+
+  <div class="grid grid-cols-2">
+    <PricingCard
+      price="$0"
+      priceHint="Free"
+      features={['<b>Unlimited</b> Websites', 'Free updates <b>forever</b>']}
+      class="mx-4"
+    >
+      <div class="text-center">
+        <GumroadLink pid="qRbAg">Try Now</GumroadLink>
+      </div>
+    </PricingCard>
+
+    <PricingCard
+      price="$5"
+      priceHint="🐦 Early bird price"
+      features={[
+        '<b>Unlimited</b> Websites',
+        'Free updates <b>forever</b>',
+        'Custom Avatar',
+        'Analytics tracking(Google)',
+        'Remove branding',
+        'Source code(Svelte)',
+        'Cryptocurreny donation(coming soon)',
+        'Pro features in future',
+      ]}
+      class="mx-4"
+    >
+      <div class="text-center" />
+    </PricingCard>
   </div>
 </main>
 
 <style>
   main {
-    text-align: center;
     padding: 1em;
     margin: 0 auto;
   }
