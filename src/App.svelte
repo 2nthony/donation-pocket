@@ -47,6 +47,7 @@
         '<b>Unlimited</b> Websites',
         'Free updates <b>forever</b>',
         'Custom Avatar',
+        'Custom link',
         'Analytics tracking(Google)',
         'Remove branding',
         'Source code(Svelte)',
