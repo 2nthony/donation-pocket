@@ -52,7 +52,7 @@
         xmlns:xlink="http://www.w3.org/1999/xlink"
         aria-hidden="true"
         role="img"
-        class="iconify iconify--fa-solid text-white scale-75 transform"
+        class="iconify iconify--fa-solid text-white transform scale-75"
         width="32"
         height="32"
         preserveAspectRatio="xMidYMid meet"
