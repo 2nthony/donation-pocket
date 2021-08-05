@@ -20,7 +20,7 @@
   <img
     class="transform -rotate-45 skew-x-12 mx-auto"
     src={resolveOssParams(
-      `https://evilaassets.oss-cn-shanghai.aliyuncs.com/uPic/2021/08/EBUFvJ.png`,
+      `https://evilaassets.oss-cn-shanghai.aliyuncs.com/uPic/2021/08/FGpcVV.png`,
       ['style/jpg'],
     )}
     alt="cover"
@@ -28,12 +28,12 @@
 
   <h2 class="text-5xl mb-10 text-center font-bold">Pricing</h2>
 
-  <div class="grid grid-cols-2">
+  <div class="md:grid grid-cols-2">
     <PricingCard
       price="$0"
       priceHint="Free"
       features={['<b>Unlimited</b> Websites', 'Free updates <b>forever</b>']}
-      class="mx-4"
+      class="mx-4 -md:mb-6"
     >
       <div class="text-center">
         <GumroadLink pid="qRbAg">Try Now</GumroadLink>
@@ -48,17 +48,24 @@
         'Free updates <b>forever</b>',
         'Custom Avatar',
         'Custom link',
-        'Analytics tracking(Google)',
-        'Remove branding',
-        'Source code(Svelte)',
-        'Cryptocurreny donation(coming soon)',
+        'Custom branding(remove or add yours)',
+        'Tracking(gtag)',
         'Pro features in future',
       ]}
       class="mx-4"
     >
-      <div class="text-center" />
+      <div class="text-center">
+        <GumroadLink pid="PckvH">I want this!</GumroadLink>
+      </div>
     </PricingCard>
   </div>
+
+  <footer class="text-sm mt-48 mb-24 text-gray-600">
+    © {new Date().getFullYear()}
+    <a href="https://aotunote.com" class="text-indigo-500">aotunote.com</a>.
+    Authored by
+    <a href="https://twitter.com/evillt" class="text-indigo-500">2nthony</a>.
+  </footer>
 </main>
 
 <style>
