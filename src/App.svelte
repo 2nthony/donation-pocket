@@ -23,7 +23,7 @@
       href="https://www.producthunt.com/posts/donation-pocket?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-donation-pocket"
       target="_blank"
       ><img
-        src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=307352&theme=light"
+        src={`https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=307352&theme=light&t=${new Date().getTime()}`}
         alt="Donation Pocket - Collect your all donation links in pocket | Product Hunt"
         style="width: 250px; height: 54px;"
         width="250"
